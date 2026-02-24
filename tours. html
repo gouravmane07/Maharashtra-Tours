@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mahabaleshwar Food Guide</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+}
+
+header{
+    background:url('https://images.unsplash.com/photo-1504674900247-0877df9cc836') no-repeat center center/cover;
+    height:60vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:white;
+    text-align:center;
+}
+
+header h1{
+    font-size:45px;
+}
+
+section{
+    padding:50px 10%;
+}
+
+.food-card{
+    background:white;
+    margin-bottom:20px;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+.food-card h3{
+    margin-bottom:10px;
+}
+
+footer{
+    background:#1e3d59;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+</style>
+
+</head>
+<body>
+
+<header>
+    <h1>Mahabaleshwar Famous Foods</h1>
+</header>
+
+<section>
+
+<div class="food-card">
+    <h3>Strawberries & Cream</h3>
+    <p>Mahabaleshwar is famous for fresh strawberries served with delicious cream.</p>
+</div>
+
+<div class="food-card">
+    <h3>Strawberry Milkshake</h3>
+    <p>Refreshing milkshake made with fresh local strawberries.</p>
+</div>
+
+<div class="food-card">
+    <h3>Corn Patties</h3>
+    <p>Hot and crispy corn patties available at Mapro Garden.</p>
+</div>
+
+<div class="food-card">
+    <h3>Fudge & Chocolates</h3>
+    <p>Homemade chocolates and fudge are very popular among tourists.</p>
+</div>
+
+</section>
+
+<footer>
+    <p>© 2026 MahaTours | Mahabaleshwar Food Guide</p>
+</footer>
+
+</body>
+</html>
